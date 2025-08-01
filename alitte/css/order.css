@@ -1,0 +1,238 @@
+body .shell-main {
+    width: 100%;
+    height: auto;
+    /* top: 100vh; */
+    position: relative;
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    scroll-snap-align: start;
+    background-color: #FBFAF5;
+}
+
+
+body .shell-main-nav {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* margin-bottom: 18vh; */
+    backdrop-filter: blur(13px);
+}
+
+body .shell-main-nav .logo {
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+body .shell-main-nav .logo img {
+    height: 100%;
+    width: 70px;
+    /* border-radius: 50%; */
+}
+
+body .shell-main-nav .logo span {
+    /* font: 100 22px 'font'; */
+    position: relative;
+    letter-spacing: 2px;
+    left: 5%;
+}
+
+body .shell-main-nav ul {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+body .shell-main-nav ul li {
+    width: 150px;
+    text-align: center;
+}
+
+body .shell-main-nav ul li a {
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    border-bottom: 3px solid transparent;
+}
+
+body .shell-main-nav ul .nav-box {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 115px;
+    height: 5px;
+    border-radius: 2px;
+    z-index: -999;
+    transition: .5s;
+}
+
+/* body .shell-main-nav ul li a:hover {
+    border-bottom: 3px solid #007f61;
+    transition: 0.2s all linear;
+    transition-delay: 0.1s;
+} */
+
+body .shell-main-nav ul li:nth-child(2):hover~.nav-box {
+    left: 120px;
+    background-color: #007f61;
+}
+
+body .shell-main-nav ul li:nth-child(3):hover~.nav-box {
+    left: 240px;
+    background-color: #007f61
+}
+
+body .shell-main-nav ul li:nth-child(4):hover~.nav-box {
+    left: 360px;
+    background-color: #007f61
+}
+
+body .shell-main-nav ul li:nth-child(5):hover~.nav-box {
+    left: 480px;
+    background-color: #007f61
+}
+
+.cart-count {
+    background-color: #007f61;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+body .shell-main-bg {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    position: relative;
+    margin-top: 2.7%;
+    display: flex;
+    flex-direction: row;
+    /*设置主轴方向是水平方向*/
+    align-items: center;
+    /*设置侧轴上，子元素的排列方式为居中对齐*/
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+body .shell-main-bg .circlenum {
+    width: 180px;
+    height: 180px;
+    background-color: #007f61;
+    border-radius: 50%;
+    color: #FBFAF5;
+    line-height: 180px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.2em;
+}
+
+body .recom-label {
+    width: 270px;
+    height: 70px;
+    font-size: 28px;
+    /* text-align: center; */
+    border-radius: 0px 25px 25px 0px;
+    line-height: 70px;
+    color: white;
+    background-color: #007f61;
+    margin-left: -81%;
+    margin-top: 20px;
+    /* 设置Div宽度 */
+}
+
+
+/* 清除浮动 */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body .shell-main-c {
+    width: 100%;
+    height: auto;
+    margin-top: 2.7%;
+    background-color: white;
+}
+
+.space {
+    width: 90%;
+    height: 2px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+body .shell-main-detail {
+    width: 100%;
+    height: 260px;
+    margin-top: 2.7%;
+    background-color: white;
+}
+
+body .shell-main-detail .shopname {
+    font-size: 25px;
+    letter-spacing: 0.1em;
+    margin-left: 52px;
+    margin-top: 10px;
+}
+
+body .shell-main-detail .detail {
+    display: flex;
+
+}
+
+body .shell-main-detail .teaimage {
+    background-color: #FBFAF5;
+    width: 170px;
+    height: 160px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+body .shell-main-detail .teaimage img {
+    margin-top: 10px;
+}
+
+.teaname {
+    font-size: 22px;
+    margin-left: 82px;
+    margin-top: 15px;
+    width: 880px;
+}
+
+.teaprice {
+    font-size: 22px;
+    /* margin-left: 770px; */
+    margin-top: 15px;
+}
+
+body .shell-main-detail .teaop {
+    color: gray;
+    margin-left: 286px;
+    margin-top: -30px;
+
+}
+
+body .shell-main-detail .teasum {
+    color: gray;
+    margin-left: 1188px;
+    margin-top: -30px;
+}

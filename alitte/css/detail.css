@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    text-decoration: none;
+}
+
+body .shell-main-nav {
+    height: 60px;
+    width: 100%;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
+    position: sticky;
+    z-index: 999;
+    top: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* margin-bottom: 18vh; */
+    backdrop-filter: blur(13px);
+}
+
+body .shell-main-nav .logo {
+    height: 100%;
+    width: 250px;
+    position: absolute;
+    left: 5%;
+    display: flex;
+    align-items: center;
+}
+
+body .shell-main-nav .logo img {
+    height: 100%;
+    width: 70px;
+    /* border-radius: 50%; */
+}
+
+body .shell-main-nav .logo span {
+    /* font: 100 22px 'font'; */
+    position: relative;
+    letter-spacing: 2px;
+    left: 5%;
+}
+
+body .shell-main-nav ul {
+    width: 600px;
+    height: 100%;
+    position: absolute;
+    right: 5%;
+    display: flex;
+    align-items: center;
+}
+
+body .shell-main-nav ul li {
+    width: 150px;
+    text-align: center;
+}
+
+body .shell-main-nav ul li a {
+    color: #000;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    border-bottom: 3px solid transparent;
+}
+
+body .shell-main-nav ul .nav-box {
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width: 115px;
+    height: 5px;
+    border-radius: 2px;
+    z-index: -999;
+    transition: .5s;
+}
+
+
+body .shell-main-nav ul li:nth-child(2):hover~.nav-box {
+    left: 120px;
+    background-color: #007f61;
+}
+
+body .shell-main-nav ul li:nth-child(3):hover~.nav-box {
+    left: 240px;
+    background-color: #007f61
+}
+
+body .shell-main-nav ul li:nth-child(4):hover~.nav-box {
+    left: 360px;
+    background-color: #007f61
+}
+
+body .shell-main-nav ul li:nth-child(5):hover~.nav-box {
+    left: 480px;
+    background-color: #007f61
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: calc(100vh - 340px);
+}
+
+.image-section {
+    flex: 1;
+    max-width: calc(45% - 20px);
+    height: 530px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBFAF5;
+    color: #afb956;
+}
+
+.image-section img {
+    width: 480px;
+    height: auto;
+}
+
+.description-section {
+    flex: 1.5;
+    max-width: calc(55% - 20px);
+    height: 530px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #FBFAF5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.description-section h1 {
+    margin-top: 0;
+}
+
+body .shell-main-footer {
+    width: 100%;
+    position: relative;
+    height: 100px;
+    transform: translateY(100px);
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    font: 100 30px;
+    background-color: #007f61;
+    z-index: 999;
+    /* margin-top: 112vh; */
+    /* margin-top: -50px; */
+}
+
+body .shell-main-footer span {
+    color: #e9f4f1
+}
+
+.fort {
+    font-size: 50px;
+    font-family: 'HeiTi';
+}
+
+@font-face {
+    font-family: 'HeiTi';
+    src: url("./fort/SourceHanSansSC-Regular-2.otf");
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quantity-btn {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+    margin: 0 5px;
+    border-radius: 10px;
+}
+
+.quantity-btn:hover {
+    background-color: #eee;
+}
+
+#quantity {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #000;
+    margin: 0 5px;
+}
+
+.gwc {
+    width: 140px;
+    height: 60px;
+    background-color: #afb956;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.gwc:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.image-section,
+.description-section {
+    flex: 1;
+    min-height: 300px;
+}
+
+.xiangqin {
+    height: 75px;
+    width: 100%;
+    background-color: #FBFAF5;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.recom-label {
+    width: 280px;
+    height: 60px;
+    font-size: 28px;
+    border-radius: 0px 25px 25px 0px;
+    line-height: 55px;
+    color: white;
+    background-color: #007f61;
+    margin-top: 5px;
+}
+
+.cart-count {
+    background-color: #007f61;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 5px;
+}

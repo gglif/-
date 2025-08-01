@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<!-- <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script> -->
+	<title>饮品列表</title>
+	<link rel="stylesheet" href="css/ad.css">
+	<script src="./js/yinping.js"></script>
+</head>
+
+
+<body>
+
+
+	<div class="top">
+		<div class="shell-main-nav">
+			<div class="logo">
+				<img src="./image/logo.png" alt="">
+				<!-- <span>GDFRD</span> -->
+			</div>
+			<ul>
+				<li><a href="./index.html">首页</a></li>
+				<li><a href="#">饮品</a></li>
+				<li><a href="./shopcart.html">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+				<li><a href="./order.html">订单详情</a></li>
+				<li id="called"><a href="./login.html">登录</a></li>
+				<div class="nav-box"></div>
+			</ul>
+		</div>
+		<h1 class="bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全部饮品&nbsp;&nbsp;▶</h1>
+		<div class="drinks">
+
+			<div class="drink">
+				<div class="cirle" onclick="goTo()">
+					<img src="./image/波霸奶茶.png" alt="波霸奶茶">
+					<h3 id="clickable-paragraph" class="clickable-paragraph">波霸奶茶</h3>
+					<p>¥10</p>
+					<h4 class="wenzi">经典推荐</h4>
+				</div>
+			</div>
+			<article class="drink">
+				<div class="cirle" onclick="goTo1()">
+					<img src="./image/金桔柠檬.png" alt="金桔柠檬">
+					<h3>金桔柠檬</h3>
+					<p>¥12</p>
+					<h4 class="wenzi">好味推荐</h4>
+				</div>
+			</article>
+			<article class="drink">
+				<div class="cirle" onclick="goTo2()">
+					<img src="./image/杨枝甘露.png" alt="杨枝甘露">
+					<h3>杨枝甘露</h3>
+					<p>¥15</p>
+					<h4 class="wenzi">果茶推荐</h4>
+				</div>
+			</article>
+			<article class="drink">
+				<div class="cirle" onclick="goTo5()">
+					<img src="./image/柠檬多多.png" alt="柠檬多多">
+					<h3>柠檬多多</h3>
+					<p>¥14</p>
+					<h4 class="wenzi">当季限定</h4>
+				</div>
+			</article>
+			<article class="drink">
+				<div class="cirle" onclick="goTo3()">
+					<img src="./image/葡萄柚绿.png" alt="葡萄柚绿">
+					<h3>葡萄柚绿</h3>
+					<p>¥11</p>
+					<h4 class="wenzi">果茶推荐</h4>
+				</div>
+			</article>
+			<article class="drink">
+				<div class="cirle" onclick="goTo4()">
+					<img src="./image/柠檬柚子茶.png" alt="柠檬柚子茶">
+					<h3>柠檬柚子茶</h3>
+					<p>¥11</p>
+					<h4 class="wenzi">力荐新品</h4>
+			</article>
+		</div>
+		<div class="kb"></div>
+		<div id="ad-modal" class="modal">
+			<div class="modal-content">
+				<span class="close" onclick="closeAd()">&times;</span>
+				<img src="./image/guangao.jpg" alt="弹窗广告">
+			</div>
+		</div>
+		<footer>
+			<div class="shell-main-footer">
+				<span>&copy版权归208所有</span>
+			</div>
+
+		</footer>
+
+	</div>
+	<script src="../js/detail.js"></script>
+
+</body>
+
+</html>

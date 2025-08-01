@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柠檬养乐多</title>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <div class="shell-main-nav">
+        <div class="logo">
+            <img src="../image/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../yinping.html">饮品</a></li>
+            <li><a href="../shopcart.html">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+            <li><a href="#">订单详情</a></li>
+            <li id="called"><a href="./login.html">登录</a></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+    <div class="xiangqin">
+        <div class="recom-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上新推荐&nbsp;&nbsp;▶</div>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="../image/芒果养乐多s.png" alt="柠檬养乐多">
+            <p class="fort">柠檬养乐多</p>
+        </div>
+        <div class="description-section">
+            <p>&emsp;</p>
+            <p>&emsp;</p>
+            <h1>柠檬养乐多 —— 酸甜与清爽的完美碰撞</h1>
+            <h3>在炎炎夏日，一杯柠檬养乐多总能驱散你的炎热与疲惫，带来一丝清凉与畅快。...</h3>
+            <p>&emsp;&emsp;选用新鲜柠檬，取其酸爽多汁的果肉，与养乐多巧妙融合。柠檬的酸味与养乐多的酸甜口感相互交织，带来一种令人难以抗拒的美味体验。每一口都能感受到柠檬的清新与养乐多的醇厚，让你仿佛置身于一个充满活力与清新的世界。
+            </p>
+            <h2>优质养乐多</h2>
+            <p>&emsp;&emsp;养乐多作为基底，选用优质乳酸菌发酵而成，口感醇厚而酸甜适中。乳酸菌的加入不仅丰富了口感，还带来了丰富的营养价值。无论是单独品尝还是搭配柠檬，都能感受到养乐多的独特魅力。</p>
+            <h2>酸甜可口</h2>
+            <p>&emsp;&emsp;柠檬的酸味与养乐多的酸甜口感相互碰撞，带来一种令人难以抗拒的美味体验。每一口都能感受到柠檬的清新与养乐多的醇厚，酸甜交织的口感让你在品味中感受到生活的多彩与美好。在享受美味的同时，还能促进消化，保持身体健康。
+            </p>
+            <!-- <h2>健康理念</h2>
+            <p>&emsp;&emsp;在追求美味的同时，我们也注重健康。我们的波霸奶茶不添加任何人工色素和防腐剂，让你在享受美味的同时，也能保持身体健康。</p> -->
+            <h2>用料：柠檬，养乐多</h2>
+            <h2>价格：¥13</h2>
+            <div class="quantity-selector">
+                <button class="quantity-btn" onclick="changeQuantity(-1)">-</button>
+                <input type="number" id="quantity" value="1" min="1" readonly>
+                <button class="quantity-btn" onclick="changeQuantity(1)">+</button>
+                &emsp;
+                <button class="gwc" onclick="addToCart()">加入购物车</button>
+            </div>
+        </div>
+    </div>
+    <div class="shell-main-footer">
+        <span>&copy版权归208所有</span>
+    </div>
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>

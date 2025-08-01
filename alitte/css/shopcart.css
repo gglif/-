@@ -1,0 +1,640 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	background-color: #fbfaf5;
+}
+
+.bt {
+	margin: 30px 0px 40px 0px;
+	/* background-color: #007f61;
+    color: #e9f4f1;
+    border-radius: 0 10px 10px 0px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px */
+	width: 270px;
+	height: 70px;
+	font-size: 28px;
+	/* text-align: center; */
+	border-radius: 0px 25px 25px 0px;
+	line-height: 70px;
+	color: white;
+	background-color: #007f61;
+}
+
+.cart-count {
+	background-color: #007f61;
+	color: white;
+	border-radius: 50%;
+	padding: 5px 10px;
+	font-size: 14px;
+	margin-left: 5px;
+}
+
+#dhl {
+
+	height: 60px;
+	background-color: #fbfaf5;
+}
+
+#lv {
+	height: 40px;
+	width: 150px;
+	background-color: #007f61;
+	float: left;
+	margin-top: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#lv p {
+	margin-left: 20px;
+	color: white;
+	margin-top: 10px;
+	float: left;
+}
+
+#lv img {
+	height: 25px;
+	width: 25px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 20px;
+}
+
+#d1 {
+	width: 20%;
+	text-align: center;
+}
+
+#d2 {
+	width: 20%;
+	text-align: center;
+}
+
+#d3 {
+	width: 20%;
+	text-align: center;
+}
+
+#d4 {
+	width: 20%;
+	text-align: center;
+}
+
+#d5 {
+	width: 18%;
+	text-align: center;
+}
+
+#gwc {
+	height: auto;
+	background-color: white;
+}
+
+#tou1 {
+
+	height: 60px;
+}
+
+#tou1 ul li {
+	float: left;
+	text-align: center;
+	margin-top: 20px;
+}
+
+body .shell-main-nav {
+	height: 60px;
+	width: 100%;
+	background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.6));
+	position: sticky;
+	z-index: 999;
+	top: 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	/* margin-bottom: 18vh; */
+	backdrop-filter: blur(13px);
+}
+
+body .shell-main-nav .logo {
+	height: 100%;
+	width: 250px;
+	position: absolute;
+	left: 5%;
+	display: flex;
+	align-items: center;
+}
+
+body .shell-main-nav .logo img {
+	height: 100%;
+	width: 70px;
+	/* border-radius: 50%; */
+}
+
+body .shell-main-nav .logo span {
+	/* font: 100 22px 'font'; */
+	position: relative;
+	letter-spacing: 2px;
+	left: 5%;
+}
+
+body .shell-main-nav ul {
+	width: 600px;
+	height: 100%;
+	position: absolute;
+	right: 5%;
+	display: flex;
+	align-items: center;
+}
+
+body .shell-main-nav ul li {
+	width: 150px;
+	text-align: center;
+}
+
+body .shell-main-nav ul li a {
+	color: #000;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 60px;
+	border-bottom: 3px solid transparent;
+}
+
+body .shell-main-nav ul .nav-box {
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	width: 115px;
+	height: 5px;
+	border-radius: 2px;
+	z-index: -999;
+	transition: .5s;
+}
+
+
+
+body .shell-main-nav ul li:nth-child(2):hover~.nav-box {
+	left: 120px;
+	background-color: #007f61;
+}
+
+body .shell-main-nav ul li:nth-child(3):hover~.nav-box {
+	left: 240px;
+	background-color: #007f61
+}
+
+body .shell-main-nav ul li:nth-child(4):hover~.nav-box {
+	left: 360px;
+	background-color: #007f61
+}
+
+body .shell-main-nav ul li:nth-child(5):hover~.nav-box {
+	left: 480px;
+	background-color: #007f61
+}
+
+#tou2 {
+	height: 130px;
+
+
+}
+
+#tou2 ul li {
+	float: left;
+	height: 130px;
+
+}
+
+#tou2 ul li img {
+
+	max-width: 20%;
+	height: auto;
+	margin: auto;
+
+	float: left;
+	margin-left: 300px;
+
+}
+
+#tou2 ul li:nth-child(1) {
+	width: 10%;
+	text-align: center;
+
+
+}
+
+#tou2 ul li:nth-child(2) {
+
+	width: 40%;
+
+
+}
+
+#tou2 ul li:nth-child(2) p {
+	font-size: 27px;
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+
+}
+
+#tou2 ul li:nth-child(3) {
+	width: 20%;
+
+}
+
+#tou2 ul li:nth-child(4) {
+	width: 20%;
+
+}
+
+#tou2 ul li:nth-child(3) p {
+	text-align: center;
+	font-size: 30px;
+
+	margin-top: 40px;
+}
+
+#payCnt {
+
+	float: left;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* input[type=number] {
+	-moz-appearance: textfield;
+} */
+
+#jian {
+	float: left;
+}
+
+#jia {
+	float: left;
+}
+
+#tou2 ul li:nth-child(4) div {
+	margin-top: 50px;
+	margin-left: 130px;
+}
+
+#tou2 ul li:nth-child(5) {
+	width: 10%;
+
+}
+
+#tou2 ul li:nth-child(5) button {
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#payCnt1 {
+
+	float: left;
+}
+
+
+
+#tou3 {
+	height: 130px;
+	background-color: #fbfaf5;
+	margin-top: 10px;
+}
+
+#tou3 ul li {
+	float: left;
+	height: 130px;
+
+}
+
+#tou3 ul li img {
+
+	max-width: 20%;
+	height: auto;
+	margin: auto;
+
+	float: left;
+	margin-left: 300px;
+
+}
+
+#tou3 ul li:nth-child(1) {
+	width: 10%;
+	text-align: center;
+
+
+}
+
+#tou3 ul li:nth-child(2) {
+
+	width: 40%;
+
+
+}
+
+#tou3 ul li:nth-child(2) p {
+	font-size: 27px;
+	text-align: center;
+	margin-top: 40px;
+	float: left;
+
+}
+
+#tou3 ul li:nth-child(3) {
+	width: 20%;
+
+}
+
+#tou3 ul li:nth-child(4) {
+	width: 20%;
+
+}
+
+#tou3 ul li:nth-child(3) p {
+	text-align: center;
+	font-size: 30px;
+
+	margin-top: 40px;
+}
+
+#jian {
+	float: left;
+}
+
+#jia {
+	float: left;
+}
+
+#tou3 ul li:nth-child(4) div {
+	margin-top: 50px;
+	margin-left: 130px;
+}
+
+#tou3 ul li:nth-child(5) {
+	width: 10%;
+
+}
+
+#tou3 ul li:nth-child(5) button {
+	text-align: center;
+	margin-top: 50px;
+}
+
+#jiesuan {
+	height: 80px;
+	width: 100%;
+
+}
+
+#y1 {
+	width: 10%;
+	float: right;
+	margin-right: 20px;
+	/* 右侧间距 */
+	height: 80px;
+}
+
+#y2 {
+	width: 15%;
+	float: right;
+	margin-right: 20px;
+	/* 右侧间距 */
+	height: 80px;
+	margin-top: 29px;
+}
+
+#anniu {
+	text-align: center;
+	width: 100%;
+	background-color: #afb956;
+
+	height: 40px;
+	margin-left: 10px;
+
+}
+
+#anniu a {
+	color: white;
+	font-size: 30px;
+}
+
+#y2 p {
+	float: left;
+	font-size: 25px;
+	margin-top: 10px;
+	display: inline;
+	/* 使总价和价格在同一行 */
+	margin-left: 10px;
+	/* 左间距 */
+}
+
+#sb {
+	background-color: #fbfaf5;
+	height: 50px;
+}
+
+#bottom {
+	height: 100px;
+	text-align: center;
+
+
+}
+
+#bottom p {
+	margin-top: 10px;
+}
+
+body .shell-main-footer {
+	width: 100%;
+	position: relative;
+	height: 100px;
+	transform: translateY(100px);
+	display: flex;
+	justify-content: center;
+	letter-spacing: 2px;
+	align-items: center;
+	text-align: center;
+	font-size: larger;
+	font: 100 30px;
+	background-color: #007f61;
+	z-index: 999;
+	/* margin-top: 112vh; */
+	/* margin-top: -50px; */
+}
+
+body .shell-main-footer span {
+	color: #e9f4f1
+}
+
+.qa {
+	width: 100%;
+	height: auto;
+	min-height: 330px;
+}
+
+/* 商品项样式 */
+.cart-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	border-bottom: 1px solid #e0e0e0;
+	background-color: white;
+	/* 背景色 */
+}
+
+.cart-item img {
+	width: 60px;
+	/* 商品图片宽度 */
+	height: auto;
+	/* 自动高度 */
+	margin-right: 15px;
+	/* 图片和文本之间的间距 */
+}
+
+.cart-item ul {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	/* 使 ul 填满整个宽度 */
+}
+
+.cart-item ul li {
+	flex: 1;
+	/* 每个 li 占据相同的空间 */
+	text-align: center;
+	/* 中心对齐 */
+}
+
+.cart-item button {
+	background-color: #007f61;
+	/* 按钮背景色 */
+	color: white;
+	/* 按钮文字颜色 */
+	border: none;
+	/* 去掉边框 */
+	padding: 5px 10px;
+	/* 按钮内边距 */
+	cursor: pointer;
+	/* 鼠标悬停时为手指图标 */
+	border-radius: 5px;
+	/* 圆角按钮 */
+	transition: background-color 0.3s;
+	/* 背景色过渡效果 */
+}
+
+.cart-item button:hover {
+	background-color: #005f4f;
+	/* 悬停时的背景色 */
+}
+
+.cart-item input[type="number"] {
+	width: 40px;
+	/* 输入框宽度 */
+	text-align: center;
+	/* 文本中心对齐 */
+	margin: 0 5px;
+	/* 输入框的左右间距 */
+}
+
+.cart-item p {
+	margin: 0;
+	/* 清除段落的默认间距 */
+	font-size: 18px;
+	/* 字体大小 */
+}
+
+/* 总价部分样式 */
+#jiesuan {
+	display: flex;
+	/* 使用 Flexbox 布局 */
+	justify-content: flex-end;
+	/* 右对齐内容 */
+	align-items: center;
+	/* 垂直居中 */
+	padding: 20px;
+	/* 内边距 */
+	background-color: #fbfaf5;
+	border-radius: 5px;
+	/* 圆角 */
+	margin-top: 20px;
+	/* 上边距 */
+}
+
+#jiesuan p {
+	font-size: 20px;
+	/* 字体大小 */
+	margin: 0;
+	/* 清除默认间距 */
+}
+
+#anniu a {
+	display: block;
+	/* 使链接块级化 */
+	text-align: center;
+	/* 中心对齐 */
+	padding: 10px;
+	/* 内边距 */
+	background-color: #007f61;
+	/* 背景色 */
+	color: white;
+	/* 文字颜色 */
+	border-radius: 5px;
+	/* 圆角 */
+	transition: background-color 0.3s;
+	/* 背景色过渡效果 */
+}
+
+#anniu a:hover {
+	background-color: #005f4f;
+	/* 悬停时的背景色 */
+}
+
+.item-checkbox {
+	position: relative;
+	top: -28px;
+	left: -20px;
+}
+
+.teaname {
+	position: relative;
+	left: -6.8px;
+}
+
+.sb {
+	position: relative;
+	left: 9px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>葡萄柚绿</title>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <div class="shell-main-nav">
+        <div class="logo">
+            <img src="../image/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../yinping.html">饮品</a></li>
+            <li><a href="../shopcart.html">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+            <li><a href="#">订单详情</a></li>
+            <li id="called"><a href="./login.html">登录</a></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+    <div class="xiangqin">
+        <div class="recom-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上新推荐&nbsp;&nbsp;▶</div>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="../image/葡萄柚绿.png" alt="葡萄柚绿">
+            <p class="fort">葡萄柚绿</p>
+        </div>
+        <div class="description-section">
+            <p>&emsp;</p>
+            <p>&emsp;</p>
+            <h1>葡萄柚绿 —— 清新果香的轻盈之选</h1>
+            <h3>在追求轻盈与健康的今天，一杯葡萄柚绿总能带给你意想不到的惊喜。</h3>
+            <p>&emsp;&emsp;我们精选新鲜葡萄柚，搭配清新的绿茶基底，经过精心调配，成就一杯色泽翠绿、口感清新的葡萄柚绿。葡萄柚的酸甜与绿茶的清香相互交织，带来令人愉悦的味蕾体验。</p>
+            <h2>精选奶茶（绿茶基底）</h2>
+            <p>&emsp;&emsp;葡萄柚绿以特制的绿茶基底为基础，选用上等绿茶经过精心炒制与冲泡，确保每一口都能品尝到茶香的清新与果香的甘甜。这独特的绿茶基底，让葡萄柚绿更加清爽宜人，并且葡萄柚富含维生素C和纤维素，有助于提升免疫力和促进消化。
+            </p>
+            <h2>独特口感</h2>
+            <p>&emsp;&emsp;葡萄柚绿的独特口感在于其酸甜适中与茶香浓郁。葡萄柚的酸甜口感与绿茶的清香相互平衡，带来层次分明的口感体验。同时，绿茶的清爽与葡萄柚的果香交织在一起，让你在品尝时仿佛置身于果园之中，倍感清新与愉悦。
+            </p>
+            <!-- <h2>健康理念</h2>
+            <p>&emsp;&emsp;葡萄柚绿不仅口感清新，更富含多种营养成分。葡萄柚富含维生素C和纤维素，有助于提升免疫力和促进消化。绿茶则富含茶多酚和儿茶素等抗氧化物质，有助于抗氧化和提神醒脑。每一口都是对健康与美味的双重享受。
+            </p> -->
+            <h2>用料：葡萄柚，绿茶</h2>
+            <h2>价格：¥11</h2>
+            <div class="quantity-selector">
+                <button class="quantity-btn" onclick="changeQuantity(-1)">-</button>
+                <input type="number" id="quantity" value="1" min="1" readonly>
+                <button class="quantity-btn" onclick="changeQuantity(1)">+</button>
+                &emsp;
+                <button class="gwc" onclick="addToCart()">加入购物车</button>
+            </div>
+        </div>
+    </div>
+    <div class="shell-main-footer">
+        <span>&copy版权归208所有</span>
+    </div>
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>

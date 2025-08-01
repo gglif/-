@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/shopcart.css">
+
+    <title>购物车</title>
+</head>
+
+<body>
+    <div class="shell-main-nav">
+        <div class="logo">
+            <img src="./image/logo.png" alt="">
+            <!-- <span>GDFRD</span> -->
+        </div>
+        <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./yinping.html">饮品</a></li>
+            <li><a href="#">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+            <li><a href="./order.html">订单详情</a></li>
+            <li id="called"><a href="./login.html">登录</a></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+
+    <h1 class="bt">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;全部饮品&nbsp;&nbsp;▶</h1>
+    <div id="gwc">
+        <div id="tou1">
+            <ul>
+                <li id="d1">
+                    <input type="checkbox" id="selectAll" onclick="toggleSelectAll()" checked><span>全选</span>
+                </li>
+                <li id='d2'>
+                    <p>商品</p>
+                </li>
+                <li id='d3'>
+                    <p>单价</p>
+                </li>
+                <li id='d4'>
+                    <p>数量</p>
+                </li>
+                <li id='d5'>
+                    <p>操作</p>
+                </li>
+            </ul>
+        </div>
+        <div class="qa" id="qa">
+            <!-- <div id="tou2"></div>
+                <ul>
+                    <li>
+                        <input type="checkbox" class="item-checkbox" style="margin-top: 50px;" />
+                    </li>
+                    <li><img src="image/波霸奶茶.png" alt="" />
+                        <p>波霸奶茶</p>
+                    </li>
+                    <li>
+                        <p>¥10</p>
+                    </li>
+                    <li>
+                        <div>
+                            <button type="button" onclick="decrease()" id="jian">-</button>
+                            <input type="number" size="2" maxlength="2" value="1" id="payCnt" onkeyup="Num(this)"
+                                style="text-align: center;">
+                            <button type="button" onclick="increase()" id="jia">+</button>
+                        </div>
+                    </li>
+                    <li><button type="button" onclick="deleteItem('payCnt')">删除</button></li>
+                </ul>
+            </div> -->
+
+        </div>
+    </div>
+    <div id="jiesuan">
+        <div id="y1">
+            <div id="anniu">
+                <a href="./order.html" onclick="calculateTotal()">点击结算</a>
+            </div>
+        </div>
+        <div id="y2">
+            <p>总价:</p>
+            <p id='sum'>￥0</p>
+        </div>
+    </div>
+    <div id="sb">
+
+    </div>
+    <div class="shell-main-footer">
+        <span>&copy版权归208所有</span>
+    </div>
+
+</body>
+<script src="./js/gwc.js"></script>
+
+</html>

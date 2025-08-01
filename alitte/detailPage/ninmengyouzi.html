@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柠檬柚子茶</title>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <div class="shell-main-nav">
+        <div class="logo">
+            <img src="../image/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../yinping.html">饮品</a></li>
+            <li><a href="../shopcart.html">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+            <li><a href="#">订单详情</a></li>
+            <li id="called"></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+    <div class="xiangqin">
+        <div class="recom-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热门推荐&nbsp;&nbsp;▶</div>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="../image/柠檬柚子茶.png" alt="柠檬柚子茶">
+            <p class="fort">柠檬柚子茶</p>
+        </div>
+        <div class="description-section">
+            <p>&emsp;</p>
+            <p>&emsp;</p>
+            <p>&emsp;</p>
+            <h1>柠檬柚子茶 —— 酸甜交织的清新享受</h1>
+            <h3>在疲惫的时刻，一杯柠檬柚子茶总能为你注入活力与清新。</h3>
+            <p>&emsp;&emsp;精选优质柚子与新鲜柠檬，搭配清香四溢的茶叶，经过精心熬煮，成就一杯酸甜交织的柠檬柚子茶。柚子的清新香气与柠檬的酸爽完美结合，带来令人陶醉的味蕾体验。</p>
+            <h2>精选奶茶（茶基底）</h2>
+            <p>&emsp;&emsp;柠檬柚子茶以特制的茶基底为基础，选用上等茶叶经过精心炒制与冲泡，确保每一口都能品尝到茶香的醇厚与果香的清新。这独特的茶基底，让柠檬柚子茶更加回味无穷。</p>
+            <h2>独特口感</h2>
+            <p>&emsp;&emsp;柠檬柚子茶的独特口感在于其酸甜适中与茶香浓郁。柚子的清甜与柠檬的酸爽相互平衡，带来层次分明的口感体验。同时，茶叶的香气与果香交织在一起，让你在品尝时仿佛置身于果园之中，倍感清新与愉悦。
+            </p>
+            <!-- <h2>健康理念</h2>
+            <p>&emsp;&emsp;柠檬柚子茶不仅口感清新，更富含多种营养成分。柚子与柠檬都富含维生素C等抗氧化物质，有助于提升免疫力与美容养颜。同时，茶叶中的茶多酚与咖啡因也有助于提神醒脑与促进消化。每一口都是对健康与美味的双重享受。
+            </p> -->
+            <h2>用料：柠檬，柚子，茶</h2>
+            <h2>价格：¥11</h2>
+            <div class="quantity-selector">
+                <button class="quantity-btn" onclick="changeQuantity(-1)">-</button>
+                <input type="number" id="quantity" value="1" min="1" readonly>
+                <button class="quantity-btn" onclick="changeQuantity(1)">+</button>
+                &emsp;
+                <button class="gwc" onclick="addToCart()">加入购物车</button>
+            </div>
+        </div>
+    </div>
+    <div class="shell-main-footer">
+        <span>&copy版权归208所有</span>
+    </div>
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>

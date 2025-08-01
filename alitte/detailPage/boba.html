@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>波霸奶茶</title>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <div class="shell-main-nav">
+        <div class="logo">
+            <img src="../image/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../yinping.html">饮品</a></li>
+            <li><a href="../shopcart.html">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+            <li><a href="#">订单详情</a></li>
+            <li id="called"><a href="./login.html">登录</a></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+    <div class="xiangqin">
+        <div class="recom-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热门推荐&nbsp;&nbsp;▶</div>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="..\image\波霸奶茶.png" alt="波霸奶茶">
+            <p class="fort">波霸奶茶</p>
+        </div>
+        <div class="description-section">
+            <p>&emsp;</p>
+            <p>&emsp;</p>
+            <h1>波霸奶茶 —— 甜蜜与Q弹的完美邂逅</h1>
+            <h3>在忙碌的生活中，一杯波霸奶茶总能带来满满的幸福感。...</h3>
+            <p>&emsp;&emsp;我们的珍珠采用优质木薯粉制作，口感Q弹有嚼劲，每一颗都饱满圆润，让人回味无穷。特别的是，我们还加入了独特的熬煮工艺，让珍珠更加入味，与奶茶的香甜完美融合。</p>
+            <h2>精选奶茶</h2>
+            <p>&emsp;&emsp;奶茶基底选用优质茶叶和新鲜奶源，经过精心调配，口感醇厚而不腻，茶香与奶香交织在一起，令人陶醉。同时，我们还提供了多种口味选择，如原味、抹茶、巧克力等，满足不同顾客的口味需求。</p>
+            <h2>独特口感</h2>
+            <p>&emsp;&emsp;喝一口波霸奶茶，首先感受到的是奶茶的丝滑与香甜，随后是珍珠在口中的Q弹与嚼劲。这种独特的口感体验，让你仿佛置身于一个充满甜蜜与幸福的世界。在追求美味的同时，我们也注重健康，让你在享受美味的同时，也能保持身体健康。
+            </p>
+            <!-- <h2>健康理念</h2>
+            <p>&emsp;&emsp;在追求美味的同时，我们也注重健康。我们的波霸奶茶不添加任何人工色素和防腐剂，让你在享受美味的同时，也能保持身体健康。</p> -->
+            <h2>用料：珍珠，牛奶</h2>
+            <h2>价格：¥10</h2>
+            <div class="quantity-selector">
+                <button class="quantity-btn" onclick="changeQuantity(-1)">-</button>
+                <input type="number" id="quantity" value="1" min="1" readonly>
+                <button class="quantity-btn" onclick="changeQuantity(1)">+</button>
+                &emsp;
+                <button class="gwc" onclick="addToCart()">加入购物车</button>
+            </div>
+        </div>
+    </div>
+    <div class="shell-main-footer">
+        <span>&copy版权归208所有</span>
+    </div>
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>

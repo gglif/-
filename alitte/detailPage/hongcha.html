@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蜜柚红茶</title>
+    <link rel="stylesheet" href="../css/detail.css">
+</head>
+
+<body>
+    <div class="shell-main-nav">
+        <div class="logo">
+            <img src="../image/logo.png" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="../index.html">首页</a></li>
+            <li><a href="../yinping.html">饮品</a></li>
+            <li><a href="../shopcart.html">购物车<span id="cart-count" class="cart-count">0</span></a></li>
+            <li><a href="#">订单详情</a></li>
+            <li id="called"><a href="./login.html">登录</a></li>
+            <div class="nav-box"></div>
+        </ul>
+    </div>
+    <div class="xiangqin">
+        <div class="recom-label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;上新推荐&nbsp;&nbsp;▶</div>
+    </div>
+    <div class="container">
+        <div class="image-section">
+            <img src="../image/蜜柚红茶.png" alt="蜜柚红茶">
+            <p class="fort">蜜柚红茶</p>
+        </div>
+        <div class="description-section">
+            <p>&emsp;</p>
+            <p>&emsp;</p>
+            <h1>蜜柚红茶 —— 果香与茶韵的浪漫邂逅</h1>
+            <h3>在悠闲的午后，一杯蜜柚红茶总能唤醒你沉睡的味蕾，带来一丝清新的愉悦。...</h3>
+            <p>&emsp;&emsp;精选新鲜蜜柚，取其甘甜多汁的果肉，与上等红茶巧妙结合。蜜柚的清新果香与红茶的醇厚茶香相互交融，带来一种独特的味觉享受。每一口都能感受到蜜柚的丝丝甜味，红茶的香气在口中缓缓释放，令人回味无穷。
+            </p>
+            <h2>优质红茶</h2>
+            <p>&emsp;&emsp;红茶基底选用优质茶叶，经过精心烘焙，口感浓郁而香醇。茶叶的香气在冲泡时充分释放，与蜜柚的果香相得益彰，形成了一种独特的韵味。无论是单独品尝还是搭配蜜柚，都能感受到红茶的独特魅力。</p>
+            <h2>果香四溢</h2>
+            <p>&emsp;&emsp;蜜柚的加入为红茶增添了一抹清新的果香。每一口都能感受到蜜柚的甘甜与多汁，仿佛置身于果园之中，享受着大自然的馈赠。这种果香与茶香的完美结合，让你在品味中感受到生活的美好与惬意。</p>
+            <!-- <h2>健康理念</h2>
+            <p>&emsp;&emsp;在追求美味的同时，我们也注重健康。我们的波霸奶茶不添加任何人工色素和防腐剂，让你在享受美味的同时，也能保持身体健康。</p> -->
+            <h2>用料：柚子，红茶</h2>
+            <h2>价格：¥15</h2>
+            <div class="quantity-selector">
+                <button class="quantity-btn" onclick="changeQuantity(-1)">-</button>
+                <input type="number" id="quantity" value="1" min="1" readonly>
+                <button class="quantity-btn" onclick="changeQuantity(1)">+</button>
+                &emsp;
+                <button class="gwc" onclick="addToCart()">加入购物车</button>
+            </div>
+        </div>
+    </div>
+    <div class="shell-main-footer">
+        <span>&copy版权归208所有</span>
+    </div>
+    <script src="../js/detail.js"></script>
+</body>
+
+</html>

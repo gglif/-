@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>注册登录</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h2 class="register-title">
+                <span>没有账号，去</span>注册
+            </h2>
+            <div class="input-box" id="zhuCe">
+                <input type="text" placeholder="用户名">
+                <input type="password" placeholder="密码"> <img src="./image/i.png" id="tb">
+                <input type="password" placeholder="确认密码"> <img src="./image/i.png" id="tbl">
+            </div>
+            <button onclick="zhuCe()">注册</button>
+        </div>
+        <div class="login-box slide-up">
+            <div class="center">
+                <h2 class="login-title">
+                    <span>已有账号，去</span>登录
+                </h2>
+                <div class="input-box" id="dengLu">
+                    <input type="text" placeholder="用户名">
+                    <input type="password" placeholder="密码">
+                    <input type="text" name="" id="yanZhenMa" placeholder="验证码">
+                    <div id="HQ" onclick="yzm()">获取</div>
+                </div>
+                <input type="checkbox" name="" id="yc">
+                <br>
+                <div id="xy">登录或完成注册即代表你同意 <label for="yc"><b>用户协议</b></label> 和 <label for="yc"><b>隐私政策</b></label>
+                </div>
+                <span id="nr">没有协议</span>
+                <a href="" id="To"><button onclick="dengLu()">登录</button></a>
+            </div>
+        </div>
+    </div>
+    <script src="./js/style.js"></script>
+</body>
+
+</html>
